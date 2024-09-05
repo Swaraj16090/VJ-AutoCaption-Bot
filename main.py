@@ -4,7 +4,7 @@
 
 import pyrogram, os, asyncio
 
-try: app_id = int(os.environ.get("app_id", "20389440"))
+try: app_id = int(os.environ.get("app_id", "26558850"))
 except Exception as app_id: print(f"⚠️ App ID Invalid {app_id}")
 try: api_hash = os.environ.get("api_hash", "a1a06a18eb9153e9dbd447cfd5da2457")
 except Exception as api_id: print(f"⚠️ Api Hash Invalid {api_hash}")
